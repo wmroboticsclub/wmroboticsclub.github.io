@@ -6,7 +6,7 @@ Big Thank You to SWC and @gummyhz
 ## Maintenance Walkthrough
 The screenshots are reused from SWC but the workflow is the same~
 
-(Of course if you had the right permissions, you could directly edit the website and push to master, but these instructions are written for the more general club body who may not have write permissions.)
+(Of course if you had the right permissions, you could directly edit the website and push to master, but these instructions are written for the more general club body who may not have write permissions. There are also a wide variety of ways to do this, but this is one example.)
 
 Prerequities: Github account, read access to this repo
 
@@ -17,22 +17,22 @@ Prerequities: Github account, read access to this repo
 
 with ssh:
 ```
-$ git clone git@github.com:<USERNAME>/wmswc.github.io.git
+$ git clone git@github.com:<USERNAME>/wmroboticsclub.github.io.git
 ```
 with html:
     
 ```
-$ git clone https://github.com/<USERNAME>/wmswc.github.io.git
+$ git clone https://github.com/<USERNAME>/wmroboticsclub.github.io.git
 ```
 
 3. Go to your cloned repository
 ```
-$ cd wmswc.github.io/
+$ cd wmroboticsclub.github.io/
 ```
 
 4. Add the original repository as a remote, "upstream"
 ```
-$ git remote add upstream git@github.com:wmswc/wmswc.github.io.git
+$ git remote add upstream git@github.com:wmroboticsclub/wmroboticsclub.github.io.git
 ```
 In the future, you might want to get the remote's changes using:
 ```
@@ -41,9 +41,9 @@ $ git merge upstream
 ```
 
 5. [Make a branch](https://git-scm.com/docs/git-checkout/2.0.5) for your changes
-    - here we will make (`-b`) and move onto (`checkout`) a new branch (`your-branch-name`) which is based on the branch `master` from our original repository (`upstream`)
+    - here we will make (`-b`) and move onto (`checkout`) a new branch (`your-branch-name`) which is based on the branch `main` from our original repository (`upstream`)
 ```
-$ git checkout -b your-branch-name upstream/master
+$ git checkout -b your-branch-name upstream/main
 ```
 
 6. Make changes
