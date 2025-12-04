@@ -3,7 +3,6 @@ const splashPhrases = [
     "just one more microcontroller",
     "I feel at peace with these buckets of nuts n bolts",
     "a fingerbreak/shear could change my life",
-    "ROS...",
     "meet me at the hardware table <3",
     "guys can we play outside", 
     "no hear me out, a leadscrew could fix this",
